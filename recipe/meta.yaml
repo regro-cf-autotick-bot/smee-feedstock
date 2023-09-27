@@ -1,5 +1,5 @@
 {% set name = "smee" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SimonBoothroyd/smee/archive/{{ version }}.tar.gz
-  sha256: be41ee78fd4d06f4428438af337018c6cf8a28bbf7ea3967b526eca9c95363a2
+  sha256: 272219101de5abe4dead77b704a05a936f2866cad818205ff604149231c83b79
 
 build:
   noarch: python
