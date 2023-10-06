@@ -1,5 +1,5 @@
 {% set name = "smee" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SimonBoothroyd/smee/archive/{{ version }}.tar.gz
-  sha256: 272219101de5abe4dead77b704a05a936f2866cad818205ff604149231c83b79
+  sha256: f54067402f2e0e0b312c0e007aba5681944de4ebd091b55db42181bfcd58c9fd
 
 build:
   noarch: python
@@ -26,6 +26,8 @@ requirements:
     - openff-interchange-base >=0.3.14
     - pytorch  # [unix]
     - pydantic
+    # included for convenience so that the openff toolkit can 
+    # parameterize molecules without needing extra installs
     - rdkit
     - ambertools  # [unix]
     - __unix  # [unix]
