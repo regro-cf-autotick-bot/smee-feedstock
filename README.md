@@ -1,11 +1,49 @@
-About smee-feedstock
-====================
+About smee-split-feedstock
+==========================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/smee-feedstock/blob/main/LICENSE.txt)
 
+
+About smee-split
+----------------
+
 Home: https://github.com/SimonBoothroyd/smee
 
-Package license: MIT
+Package license: MIT AND BSD-3-Clause
+
+Summary: Differentiably evaluate energies using SMIRNOFF force fields
+
+Development: https://github.com/SimonBoothroyd/smee
+
+Documentation: https://github.com/SimonBoothroyd/smee
+
+A framework that aims to offer a simple API for differentiably evaluating 
+the energy of SMIRNOFF force fields applied to molecules using pytorch.
+
+
+About smee-base
+---------------
+
+Home: https://github.com/SimonBoothroyd/smee
+
+Package license: MIT AND BSD-3-Clause
+
+Summary: Differentiably evaluate energies using SMIRNOFF force fields
+
+Development: https://github.com/SimonBoothroyd/smee
+
+Documentation: https://github.com/SimonBoothroyd/smee
+
+A framework that aims to offer a simple API for differentiably evaluating
+the energy of SMIRNOFF force fields applied to molecules using pytorch.
+
+
+About smee
+----------
+
+Home: https://github.com/SimonBoothroyd/smee
+
+Package license: MIT AND BSD-3-Clause
 
 Summary: Differentiably evaluate energies using SMIRNOFF force fields
 
@@ -36,27 +74,28 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-smee-green.svg)](https://anaconda.org/conda-forge/smee) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/smee.svg)](https://anaconda.org/conda-forge/smee) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/smee.svg)](https://anaconda.org/conda-forge/smee) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/smee.svg)](https://anaconda.org/conda-forge/smee) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-smee--base-green.svg)](https://anaconda.org/conda-forge/smee-base) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/smee-base.svg)](https://anaconda.org/conda-forge/smee-base) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/smee-base.svg)](https://anaconda.org/conda-forge/smee-base) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/smee-base.svg)](https://anaconda.org/conda-forge/smee-base) |
 
-Installing smee
-===============
+Installing smee-split
+=====================
 
-Installing `smee` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `smee-split` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `smee` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `smee, smee-base` can be installed with `conda`:
 
 ```
-conda install smee
+conda install smee smee-base
 ```
 
 or with `mamba`:
 
 ```
-mamba install smee
+mamba install smee smee-base
 ```
 
 It is possible to list all of the versions of `smee` available on your platform with `conda`:
@@ -126,17 +165,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating smee-feedstock
-=======================
+Updating smee-split-feedstock
+=============================
 
-If you would like to improve the smee recipe or build a new
+If you would like to improve the smee-split recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/smee-feedstock are
+Note that all branches in the conda-forge/smee-split-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
