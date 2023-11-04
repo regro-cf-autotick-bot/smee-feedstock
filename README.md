@@ -9,7 +9,7 @@ About smee-split
 
 Home: https://github.com/SimonBoothroyd/smee
 
-Package license: MIT AND BSD-3-Clause
+Package license: MIT
 
 Summary: Differentiably evaluate energies using SMIRNOFF force fields
 
@@ -26,7 +26,7 @@ About smee-base
 
 Home: https://github.com/SimonBoothroyd/smee
 
-Package license: MIT AND BSD-3-Clause
+Package license: MIT
 
 Summary: Differentiably evaluate energies using SMIRNOFF force fields
 
@@ -43,7 +43,7 @@ About smee
 
 Home: https://github.com/SimonBoothroyd/smee
 
-Package license: MIT AND BSD-3-Clause
+Package license: MIT
 
 Summary: Differentiably evaluate energies using SMIRNOFF force fields
 
