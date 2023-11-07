@@ -1,5 +1,5 @@
 {% set name = "smee" %}
-{% set version = "0.5.2" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}-split
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SimonBoothroyd/smee/archive/{{ version }}.tar.gz
-  sha256: 51fde88583b722d130e0a70dd48ca27c8ef8b73a86fdcb0445f76df9b14510fc
+  sha256: 6105780c69834e970fb18cb3fbb298dc8f855aa432d716c9a4f2aeefbdce1e9d
 
 build:
   number: 0
@@ -24,14 +24,14 @@ outputs:
         - versioningit
         - openff-units
         - openff-toolkit-base >=0.9.2
-        - openff-interchange-base >=0.3.14
+        - openff-interchange-base >=0.3.17
         - pytorch
         - nnpops
       run:
         - python >=3.10
         - openff-units
         - openff-toolkit-base >=0.9.2
-        - openff-interchange-base >=0.3.14
+        - openff-interchange-base >=0.3.17
         - pytorch  # [unix]
         - nnpops
         - __unix  # [unix]
