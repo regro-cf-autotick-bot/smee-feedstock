@@ -1,5 +1,5 @@
 {% set name = "smee" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}-split
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SimonBoothroyd/smee/archive/{{ version }}.tar.gz
-  sha256: 02ce9003345bfe526f522dff68530ba29ed0c4dc0ea3310ea6620644faa39a04
+  sha256: 42e2e0833ba760f08bca617add4c3e8b7c3659138117389270aa1839183ce399
 
 build:
   number: 0
@@ -53,7 +53,7 @@ outputs:
         - packmol
         - numpy
         - msgpack-python
-        - pydantic
+        - pydantic >=2
         # included for convenience so that the openff toolkit can
         # parameterize molecules without needing extra installs
         - rdkit
