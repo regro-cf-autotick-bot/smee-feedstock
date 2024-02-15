@@ -1,5 +1,5 @@
 {% set name = "smee" %}
-{% set version = "0.8.1" %}
+{% set version = "0.8.2" %}
 
 package:
   name: {{ name|lower }}-split
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SimonBoothroyd/smee/archive/{{ version }}.tar.gz
-  sha256: 42e2e0833ba760f08bca617add4c3e8b7c3659138117389270aa1839183ce399
+  sha256: b3f90138b9a0609a0a780ac730bccd08c143034068eaf21d5bbd75b350221a12
 
 build:
   number: 0
