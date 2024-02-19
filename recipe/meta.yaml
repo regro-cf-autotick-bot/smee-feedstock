@@ -1,5 +1,5 @@
 {% set name = "smee" %}
-{% set version = "0.9.0" %}
+{% set version = "0.10.0" %}
 
 package:
   name: {{ name|lower }}-split
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SimonBoothroyd/smee/archive/{{ version }}.tar.gz
-  sha256: e860266e698117ba9e304e1ec9d62231c5ec30656be23893157f137c66c11739
+  sha256: 43beb0296861e8f1d1aa93caae0ab328d6701dca3c95ea6f27bde28df66c10fc
 
 build:
   number: 0
@@ -72,7 +72,6 @@ about:
   license: MIT
   license_file:
     - LICENSE
-    - LICENSE_3RD_PARTY
   doc_url: https://github.com/SimonBoothroyd/smee
   dev_url: https://github.com/SimonBoothroyd/smee
 
