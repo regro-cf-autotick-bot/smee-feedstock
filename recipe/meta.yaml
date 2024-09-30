@@ -10,7 +10,7 @@ source:
   sha256: e4ab717793e3e7149e18aa22725a35e7bb97bfb699aa216a055150a433d3b077
 
 build:
-  number: 0
+  number: 1
 
 outputs:
   - name: {{ name|lower }}-base
@@ -50,6 +50,7 @@ outputs:
         - numpy
         - msgpack-python
         - pydantic
+        - pydantic-units
         # included for convenience so that the openff toolkit can
         # parameterize molecules without needing extra installs
         - rdkit
